@@ -1,0 +1,96 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
+
+# Python environment files
+*.env
+*.venv
+*.egg-info/
+.eggs/
+
+# Logs and local output
+*.log
+
+# Streamlit cache and configuration
+.streamlit/config.toml
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/
+
+# VSCode config
+.vscode/
+
+# CSVs and outputs (optional)
+*.csv
+*.json
+
+# Data and user uploads
+data/
+uploads/
+
+# Pytest cache
+.pytest_cache/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS metadata
+.DS_Store
+
+# Windows metadata
+Thumbs.db
+
+# Python environment files
+*.env
+*.venv
+*.egg-info/
+.eggs/
+
+# Logs and local output
+*.log
+
+# Streamlit cache and configuration
+.streamlit/config.toml
+.streamlit/secrets.toml
+.streamlit/cache/
+.streamlit/
+
+# VSCode config
+.vscode/
+
+# CSVs and outputs (optional)
+*.csv
+*.json
+
+# Data and user uploads
+data/
+uploads/
+
+# Pytest cache
+.pytest_cache/
