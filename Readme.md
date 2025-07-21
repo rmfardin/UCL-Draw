@@ -39,7 +39,15 @@ This simulator implements the draw logic with the following UEFA constraints:
 - Home/Away balance: Each team has 4 home and 4 away matches
 
 ## Project Structure
-
+```bash
+ucl_draw_streamlit/
+├── data/
+│   └── teams.csv      # List of 36 teams with country and seeding pot
+├── draw.py                    # Core logic that simulates the draw
+├── app.py                     # Streamlit UI for user interaction and display
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project overview and documentation
+```
 
 ## How to Run the Simulator Locally
 
