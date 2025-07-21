@@ -40,13 +40,22 @@ This simulator implements the draw logic with the following UEFA constraints:
 
 ## Project Structure
 ```bash
-ucl_draw_streamlit/
+ucl_draw_simulator/
 ├── data/
-│   └── teams.csv      # List of 36 teams with country and seeding pot
-├── draw.py                    # Core logic that simulates the draw
-├── app.py                     # Streamlit UI for user interaction and display
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project overview and documentation
+│   └── teams_2025_26.csv        # Team name, country, pot
+├── gsheet/
+│   └── credentials.json         # Google Sheets API credentials (keep private)
+├── core/
+│   ├── draw_engine.py           # Main draw logic (opponent selection, constraints)
+│   ├── state_manager.py         # Tracks matchups, country caps, pot caps, etc.
+│   ├── config.py                # Constants, pot ordering, country constraints
+├── gsheet_integration/
+│   ├── sheets_sync.py           # Updates draw matrix in Google Sheets
+│   └── matrix_format_utils.py   # Coordinates + formatting for live matrix
+├── app.py                       # Main script to run the draw and update sheet
+├── requirements.txt
+└── README.md
+                # Project overview and documentation
 ```
 
 ## How to Run the Simulator Locally
