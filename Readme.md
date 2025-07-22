@@ -44,11 +44,10 @@ ucl_draw_simulator/
 ├── data/
 │   └── teams_2025_26.csv        # Team name, country, pot
 ├── gsheet/
-│   └── credentials.json         # Google Sheets API credentials (keep private)
+│   └── credentials.json         # Google Sheets API credentials 
 ├── core/
 │   ├── draw_engine.py           # Main draw logic (opponent selection, constraints)
-│   ├── state_manager.py         # Tracks matchups, country caps, pot caps, etc.
-│   ├── config.py                # Constants, pot ordering, country constraints
+│   ├── simulator.py         # Tracks matchups, country caps, pot caps, etc.              # Constants, pot ordering, country constraints
 ├── gsheet_integration/
 │   ├── sheets_sync.py           # Updates draw matrix in Google Sheets
 │   └── matrix_format_utils.py   # Coordinates + formatting for live matrix

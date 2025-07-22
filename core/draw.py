@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 
-teams_df = pd.read_csv('../data/teams.csv')  # load base team info
+teams_df = pd.read_csv('data/teams.csv')  # load base team info
 pot_to_teams = teams_df.groupby('Pot')['Team'].apply(list).to_dict()  # pot → teams list
 team_info = teams_df.set_index('Team').to_dict(orient='index')  # team → {country, pot}
 country_to_teams = teams_df.groupby('Country')['Team'].apply(list).to_dict()  # country → teams list

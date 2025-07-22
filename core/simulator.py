@@ -1,6 +1,6 @@
 import pandas as pd
 import random
-from .draw_engine import (
+from core.draw import (
     initialize_draw_state,
     assign_opponents,
     get_valid_candidates
